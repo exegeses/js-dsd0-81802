@@ -1,0 +1,1 @@
+document.write('texto generado con JavaScript')
