@@ -16,7 +16,7 @@ let respuesta = prompt('¿qué seleccionado ganó la copa del mundo Qatar 2022?'
     - Si el usuario responde algo diferente de "Argentina"
         Entonces mostramos la palabra "incorrecto"
 */
-if( respuesta == "Argentina" ){
+if( respuesta.toLowerCase() == "argentina" ){
     cajaTexto.textContent = "correcto"
 }
 else{
