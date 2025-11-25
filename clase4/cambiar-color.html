@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> pasar parámetros a una función</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+    <h1> pasar parámetros a una función</h1>
+
+    <nav id="navegacion">
+        <a href="#!" onclick="cambiarCaja('verde', 'hsl(120,50%,40%)', '20deg')">verde</a>
+        <a href="#!" onclick="cambiarCaja('celeste', 'hsl(220,70%,70%)', '-20deg')">celeste</a>
+        <a href="#!" onclick="cambiarCaja('amarillo', 'hsl(60, 70%, 60%)', '-30deg')">amarillo</a>
+        <a href="#!" onclick="cambiarCaja('', '#aaa', '0deg')">reset</a>
+    </nav>
+    <article id="caja"></article>
+
+
+    <script src="js/cambiar-color.js"></script>
+</body>
+</html>
