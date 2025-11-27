@@ -23,7 +23,9 @@ h1{
     color: #fff;
     transition: 500ms;
 }
-#cajaTexto{
+#cajaTexto, 
+#cajaTexto2
+{
     background-color: hsl(180,80%,4%);
     border-radius: 12px;    
     padding: 20px 32px;
