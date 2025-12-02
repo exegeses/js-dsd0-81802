@@ -39,4 +39,4 @@ function relojDigital()
 relojDigital()
 
 // actualizamos el llamado a relojDigital
-setInterval( relojDigital )
+setInterval( relojDigital, 1000 )
