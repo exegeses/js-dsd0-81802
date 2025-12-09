@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(
+                                127deg,
+                                rgba(73, 10, 8, 1) 0%,
+                                rgba(32, 10, 9, 1) 100%
+                );
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    width: 960px;
+}
+    #hero{
+        height: 480px;
+    }
+    #minis{
+        margin-top: 8px;
+        height: 160px;
+        display: flex;
+        justify-content: space-between;
+        background-color: #200A09;
+    }
+        #minis img{
+            border: 1px solid #490A08;
+            cursor: pointer;
+            transition: .5s;
+        }
+        #minis img:hover{
+            border: 1px solid #E4C7A5;
+            box-shadow: 0px 0px 8px #E4C7A5;
+        }
