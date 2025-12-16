@@ -48,3 +48,21 @@ h1{
         /*box-shadow: ejeX ejeY blur color; */
         box-shadow: 0px 0px 8px hsl(150,60%,60%);
     }
+
+#rotador{
+    background-color: hsl(180,80%,4%);
+    border-radius: 12px;    
+    padding: 20px 32px;
+    font-size: 2em;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+    #rotador img{
+        filter: invert();
+        cursor: pointer;
+        transition: 500ms;
+    }
+    #rotador img:hover{
+        transform: scale(1.3);
+    }
